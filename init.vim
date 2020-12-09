@@ -15,11 +15,8 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'christoomey/vim-tmux-navigator'
 
 "Plug 'morhetz/gruvbox' " colorscheme
-"Plug 'arzg/vim-colors-xcode'
-"Plug 'phanviet/vim-monokai-pro'
-Plug 'sainnhe/gruvbox-material'
+Plug 'joshdick/onedark.vim'
 Plug 'sheerun/vim-polyglot'
-Plug 'arzg/vim-swift'
 Plug 'tpope/vim-git'
 Plug 'othree/html5.vim'
 Plug 'hail2u/vim-css3-syntax'
@@ -32,6 +29,8 @@ Plug 'HerringtonDarkholme/yats.vim' " TS Syntax
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'jiangmiao/auto-pairs'
+
+Plug 'tpope/vim-surround'
 
 " Initialize plugin system
 call plug#end()
@@ -94,10 +93,10 @@ let g:airline#extensions#tabline#left_alt_sep='|'
 let g:airline#extensions#tabline#formatter='default'
 
 set background=dark
-colorscheme gruvbox-material
-let g:airline_theme = 'gruvbox_material'
+colorscheme onedark
+let g:airline_theme = 'onedark'
 let g:lightline = {}
-let g:lightline.colorscheme = 'gruvbox_material'
+let g:lightline.colorscheme = 'onedark'
 
 " sync open file with NERDTree
 " " Check if NERDTree is open or active
