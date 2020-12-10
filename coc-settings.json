@@ -8,5 +8,7 @@
     "javascriptreact",
     "typescript.tsx",
     "graphql"
-  ]
+  ],
+  "python.pythonPath": "/Users/seungyeon/opt/anaconda3/bin/python3",
+  "python.jediPath": "/Users/seungyeon/opt/anaconda3/lib/python3.8/site-packages"
 }
