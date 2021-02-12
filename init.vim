@@ -15,6 +15,8 @@ Plug 'google/vim-codefmt'
 Plug 'google/vim-glaive'
 
 Plug 'gruvbox-community/gruvbox'
+"Plug 'joshdick/onedark.vim'
+"Plug 'arzg/vim-colors-xcode'
 call plug#end()
 
 call glaive#Install()
